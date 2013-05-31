@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Nortal.Utilities.MessenteSms" GeneratedClassName="MessenteConnectionSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MainUrl" Type="System.Uri" Scope="Application">
+      <Value Profile="(Default)">http://api2.messente.com</Value>
+    </Setting>
+    <Setting Name="BackupUrl" Type="System.Uri" Scope="Application">
+      <Value Profile="(Default)">http://api3.messente.com</Value>
+    </Setting>
+    <Setting Name="SuppressSmsSending" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="UserName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleApplication", "ExampleApplication\ExampleApplication.csproj", "{1D20B5FC-9E5D-4949-900E-0C2C35A4DFEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E690B37-0B15-47AB-AE1E-DB92AE40AF8D}"
+	ProjectSection(SolutionItems) = preProject
+		LICENCE.txt = LICENCE.txt
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessenteSms", "MessenteSms\MessenteSms.csproj", "{34D5CF1C-5B3C-4BA3-973A-CB0FC57D6EE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D20B5FC-9E5D-4949-900E-0C2C35A4DFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D20B5FC-9E5D-4949-900E-0C2C35A4DFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D20B5FC-9E5D-4949-900E-0C2C35A4DFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D20B5FC-9E5D-4949-900E-0C2C35A4DFEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D5CF1C-5B3C-4BA3-973A-CB0FC57D6EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D5CF1C-5B3C-4BA3-973A-CB0FC57D6EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D5CF1C-5B3C-4BA3-973A-CB0FC57D6EE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D5CF1C-5B3C-4BA3-973A-CB0FC57D6EE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
