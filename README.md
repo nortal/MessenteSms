@@ -11,23 +11,25 @@ Licenced under Apache Licence v2.0.
 
 Getting started
 ---------------
-* Prerequisites
-** Microsoft.Net Framework 2.0
-** In order to use the HTTP-based interface please activate your API account on the Messente web page.
-* Reference Nortal.Utilities.MessenteSMS assembly
+* Requires Microsoft.Net Framework 2.0
+* Activate your Messente API account on the Messente web page
+* Reference Nortal.Utilities.MessenteSMS.dll assembly
 * Configure the API access credentials in web.config:
-	<Nortal.Utilities.MessenteSms.MessenteConnectionSettings>
-		<setting name="UserName" serializeAs="String">
-			<value>452d032afd3ff0520ba3f3aabb273d58</value>
-		</setting>
-		<setting name="Password" serializeAs="String">
-			<value>d5a6d79c4de9c187f48044485a7c081a</value>
-		</setting>
-	</Nortal.Utilities.MessenteSms.MessenteConnectionSettings>
+
+		<Nortal.Utilities.MessenteSms.MessenteConnectionSettings>
+			<setting name="UserName" serializeAs="String">
+				<value>YOUR_API_USER_HERE</value>
+			</setting>
+			<setting name="Password" serializeAs="String">
+				<value>YOUR_API_PASSWORD_HERE</value>
+			</setting>
+		</Nortal.Utilities.MessenteSms.MessenteConnectionSettings>
+
 * Send SMS:
-	var smsAgent = new MessenteAgent();
-	var messenteResponse = smsAgent.SendMessage("+37212345678", "my content");
-	if (messenteResponse.IsSuccess) { return "Successfully gave message to messente server, sms id: " + messenteResponse.SuccessResult; }
-	else { return "Sending failed:" + messenteResponse.FailureReason; }
+
+		var smsAgent = new MessenteAgent();
+		var messenteResponse = smsAgent.SendMessage("+37212345678", "my content");
+		if (messenteResponse.IsSuccess) { return "Successfully gave message to messente server, sms id: " + messenteResponse.SuccessResult; }
+		else { return "Sending failed:" + messenteResponse.FailureReason; }
 
 Check documentation or included sample application for other features.
