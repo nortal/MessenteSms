@@ -6,10 +6,16 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E690B37-0B15-47AB-AE1E-DB92AE40AF8D}"
 	ProjectSection(SolutionItems) = preProject
 		LICENCE.txt = LICENCE.txt
-		README.txt = README.txt
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessenteSms", "MessenteSms\MessenteSms.csproj", "{34D5CF1C-5B3C-4BA3-973A-CB0FC57D6EE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{88DC929D-DDB6-4C0C-94B8-D178CA008338}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

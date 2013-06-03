@@ -63,12 +63,21 @@
       <LastGenOutput>MessenteConnectionSettings.Designer.cs</LastGenOutput>
     </None>
     <None Include="MessenteSMS.licenseheader" />
+    <None Include="_tools\NugetPackaging\Nortal.Utilities.MessenteSms.nuspec" />
+    <None Include="_tools\NugetPackaging\PackageRelease.bat" />
+    <None Include="_tools\NugetPackaging\Web.config.transform" />
   </ItemGroup>
   <ItemGroup>
     <CodeAnalysisDictionary Include="Properties\CustomDictionary.xml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="_tools\NugetPackaging\output\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="_tools\NugetPackaging\NOTICE.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

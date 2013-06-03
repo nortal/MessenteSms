@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>$id$</id>
+		<version>$version$</version>
+		<title>$title$</title>
+		<authors>Imre Pühvel</authors>
+		<owners>$author$</owners>
+		<iconUrl>http://www.nortal.com/_gfx/logo-32x32.png</iconUrl>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
+		<licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.txt</licenseUrl>
+		<description>
+			Provides a client API for sending SMS messages to mobile phones using services provided by Messente.
+			Read more about service capabilities and usage conditions from http://www.messente.com.
+			More info about the project (including code and sample project) from https://github.com/NortalLTD/MessenteSms.
+		</description>
+		<summary>$description$</summary>
+		<releaseNotes></releaseNotes>
+		<copyright>Copyright 2013 Imre Pühvel, AS Nortal. Licenced under Apache License 2.0.</copyright>
+		<tags>Nortal Messente SMS</tags>
+	</metadata>
+	<files>
+		<file src="_tools\NugetPackaging\Web.config.transform" target="content\" />
+		<file src="..\LICENCE.txt" target="content\"/>
+		<file src="_tools\NugetPackaging\NOTICE.txt" target="content\" />
+	</files>
+</package>
