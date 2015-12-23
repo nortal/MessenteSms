@@ -40,9 +40,7 @@ Getting started
 * Send your SMS messages:
 
 		var smsAgent = new MessenteAgent();
-		MessenteResponse messenteResponse = smsAgent.SendMessage("+37212345678", "my content");
-		
-		if (messenteResponse.IsSuccess) { return "Successfully gave message to messente server, sms id: " + messenteResponse.SuccessResult; }
-		else { return "Sending failed:" + messenteResponse.FailureReason; }
+		var result = smsAgent.SendMessage("+37212345678", "my content");
+		return result.IsSuccess ? "Yay!" : result.FailureReason;
 
 Check documentation or included sample application for other features like delayed sending, delivery reports, account balance, etc.
